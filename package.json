@@ -1,0 +1,31 @@
+{
+  "name": "fs-read-chunk",
+  "version": "0.0.1",
+  "description": "Read n bytes of an fd or file",
+  "license": "MIT",
+  "author": "Vincent Weevers",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "fs-lotus": "~1.0.1"
+  },
+  "devDependencies": {
+    "tape": "~4.6.3"
+  },
+  "repository": "vweevers/fs-read-chunk",
+  "bugs": "https://github.com/vweevers/fs-read-chunk/issues",
+  "homepage": "https://github.com/vweevers/fs-read-chunk",
+  "keywords": [
+    "chunk",
+    "fs",
+    "read"
+  ],
+  "engines": {
+    "node": ">=4.0.0",
+    "npm": ">=2.0.0"
+  }
+}
